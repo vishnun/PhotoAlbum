@@ -1,0 +1,70 @@
+body, html{
+	text-align: center;
+	background-color: #1C1C1C;
+	color: white;
+}
+h1{
+	font-size: 2em;
+}
+h2{
+	font-size: 1.5em;
+}
+.header{
+	background-color: #353535;
+	padding: 1%;
+}
+
+.content{
+	height: 100%;
+	width: 99%;
+	margin-top: 5%;
+}
+
+.slider img{
+	width: 50%;
+	/*max-width: 600px;
+	min-width: 250px;
+	max-height: 500px;*/
+	border: 5px solid grey;
+	vertical-align: middle;
+	border-radius: 6px;
+}
+.image-container{
+	max-width: 500px;
+	max-height: 500px;
+}
+.slider button{
+	width: 72px;
+	height: 72px;	
+}
+.content > button {
+	margin-top: 10px;
+	height: 50px;
+	width: 50px;
+}
+.footer{
+	width: 99%;
+	position: absolute;
+	bottom: 0;
+	background-color: #353535;
+	padding: 0.5%;
+}
+.image_view{
+	display: inline;
+}
+#prev-btn, #next-btn, #slide_show_Btn{
+	background-color: transparent;
+	border: 0;
+	background-image: url(../res/prev.png);
+	background-size: contain;
+	opacity: 0.2;
+}
+#next-btn{
+	background-image: url(../res/next.png);
+}
+#prev-btn:hover, #next-btn:hover, #slide_show_Btn:hover{
+	opacity: 1;
+}
+#slide_show_Btn{
+	background-image: url(../res/play.png);
+}
